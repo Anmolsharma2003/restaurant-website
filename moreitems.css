@@ -1,0 +1,360 @@
+.name h1{
+    color: green;
+    text-align: center;
+    font-size: 7vh;
+    margin: 0px;
+    position: relative;
+    animation-name: food;
+    animation-duration :10s;
+    animation-direction:normal;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+@keyframes food{
+    from{
+        top:0%;
+        left:0px;
+    }
+    to{
+       top:0%;
+       left: 1540px;
+    }
+}
+.name{
+    /* background-image: url(images/foody.png); 
+     background-size: cover; */
+    height: 8vh;
+    width: 98vw;
+    background-color: white;
+   
+}
+.food{
+    height: 150px;
+    width: 200px;
+    background-color: red;
+   
+     margin-left: 80vh; 
+}
+nav{
+    background-color:green;
+    width: 98vw;
+    height: 11vh;
+   
+}
+.logo{
+    /* background-color: red; */
+    width: 15vh;
+    margin-right: -10vh;
+    
+  background-size: cover;
+  
+}
+
+#navcontent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center; 
+    margin: 15vh;
+    list-style: none;
+    margin-top: 0vh;
+}
+#navcontent li{
+    
+    margin: 30px;
+    color: white;
+    margin-left: 13vh;
+    font-size: large;
+    font-weight: bold;
+}
+#navcontent li a{
+ color: white;
+ text-decoration: none;
+ margin-left: 5vh;
+ margin-right: 3vh;
+ font-size: large;
+ font-weight:bold;
+}
+#navcontent li :hover{
+    color: red;
+}
+#navcontent :hover{
+    color: black;
+}
+.menu{
+    height: auto;
+    width: 98vw;
+    background-color: white;
+    flex-direction: column;
+    
+}
+.items{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1.5vh;
+
+}
+.p2{
+    font-size: 8vh;
+    font-style: italic;
+    font-weight: bolder;
+    color: green;
+    text-align: center;
+    margin-top: 0.6vh;
+}
+.burger{
+    border-radius: 1.5vh;
+    height: 45vh;
+    width: 60vh;
+    background-image: url(images/image2.jpg);
+    background-size: cover;
+    
+    
+}
+.pizza{
+    border-radius: 1.5vh;
+    height: 45vh;
+    width: 60vh;
+    background-image: url(images/pizza.jpg);
+    background-size: cover;
+}
+.chawmin{
+    border-radius: 1.5vh;
+    height: 45vh;
+    width: 60vh;
+    background-image: url(images/chawmin.jpg);
+    background-size: cover;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.btn button{
+ text-decoration: none;
+ height: 5.5vh;
+ width: 18vh;
+ border-radius: 1vh;
+ margin-top: 39.3vh;
+ background-color: yellow;
+
+
+}
+.btn button a{
+    text-decoration: none;
+    color: red;
+    font-weight: bolder;
+    font-size: large;
+   
+   }
+   .named{
+     text-align: center;
+    font-size: 3vh;
+    font-weight: bolder;
+
+   }
+   .items1{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    margin-top: 4.5vh;
+    
+}
+.roti{
+    border-radius: 1.5vh;
+    height: 45vh;
+    width: 60vh;
+    background-image: url(images/dalroti.jpg);
+    background-size: cover; 
+} 
+.icecream{
+    border-radius: 1.5vh;
+    height: 45vh;
+    width: 60vh;
+    
+    background-image: url(images/ice.jpg);
+    background-size: cover;
+}
+.rasgulla{
+    border-radius: 1.5vh;
+    height: 45vh;
+    width: 60vh;
+   
+    background-image: url(images/rash.webp);
+    background-size: cover;
+} 
+.btn button:hover{
+    padding: 0.2vh;
+    border: dotted;
+ color: black;
+ font-size: 22px ;  
+
+}
+.items2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4.5vh;
+
+}
+.saag{
+    border-radius: 1.5vh;
+    height: 45vh;
+    width: 60vh;
+    background-image: url(images/saag\ roti.jpg);
+    background-size: cover; 
+} 
+.icecream{
+    border-radius: 1.5vh;
+    height: 45vh;
+    width: 60vh;
+    
+    background-image: url(images/ice.jpg);
+    background-size: cover;
+}
+.rasgulla{
+    border-radius: 1.5vh;
+    height: 45vh;
+    width: 60vh;
+   
+    background-image: url(images/rash.webp);
+    background-size: cover;
+} 
+.chole{
+    border-radius: 1.5vh;
+    height: 45vh;
+    width: 60vh;
+    background-image: url(images/chole.jpg);
+    background-size: cover;
+} 
+.pav{
+    border-radius: 1.5vh;
+    height: 45vh;
+    width: 60vh;
+    background-image: url(images/pav.jpg);
+    background-size: cover;
+} 
+.pasta{
+    border-radius: 1.5vh;
+    height: 45vh;
+    width: 60vh;
+    background-image: url(images/pasta.avif);
+    background-size: cover;
+} 
+.items3{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4.5vh;
+
+}
+.idli{
+    border-radius: 1.5vh;
+    height: 45vh;
+    width: 60vh;
+    background-image: url(images/idli.jpg);
+    background-size: cover;
+} 
+.uttapam{
+    border-radius: 1.5vh;
+    height: 45vh;
+    width: 60vh;
+    background-image: url(images/uttapam.webp);
+    background-size: cover;
+} 
+.beryani{
+    border-radius: 1.5vh;
+    height: 45vh;
+    width: 60vh;
+    background-image: url(images/veg.jpg);
+    background-size: cover;
+} 
+.items4{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4.5vh;
+
+}
+.kaju{
+    border-radius: 1.5vh;
+    height: 45vh;
+    width: 60vh;
+    background-image: url(images/kaju.jpg);
+    background-size: cover;
+} 
+.rasmalai{
+    border-radius: 1.5vh;
+    height: 45vh;
+    width: 60vh;
+    background-image: url(images/rashmaalai.jpg);
+    background-size: cover;
+} 
+.footer{
+    height: 30vh;
+    width: 98vw;
+    background-color: white;
+    margin-top: -2vh;
+}
+.footer p{
+    text-align: center;
+    font-size: 5vh;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 6vh;
+}
+.p6{
+ text-align: center;
+ font-size: 3vh;
+ margin-top: -3.5vh;
+
+}
+hr{
+    width: 125vh;
+}
+.sumbit input{
+    height: 5vh;
+    width: 50vh;
+    margin-left: 45vh;
+    
+}
+.vl{
+    border-left: 3px solid black;
+    height: 60px;
+    margin-left: 100vh;
+    margin-top: -6vh;
+}
+
+.sumbit button{
+    height: 5vh;
+    width: 20vh;
+    margin-left: 9vh;
+    color: black;
+    font-size: large;
+
+}
+.content4{
+    background-color: green;
+    height: 12vh;
+    width: 98vw;
+    display:flex ;
+    justify-content: center;
+    
+}
+ .content4 button{
+    height: 45px;
+    width: 45px; 
+     border-radius: 1vh;
+    margin: 3vh;
+    margin-top: 1vh;
+  
+    
+}
+.content5{
+    margin-top: -10vh;
+    text-align: center;
+}
+.btn button:hover{
+    padding: 0.2vh;
+    border: dotted;
+ color: black;
+ font-size: 22px ;  
+
+}

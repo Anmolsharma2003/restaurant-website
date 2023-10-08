@@ -1,0 +1,285 @@
+.name h1{
+    color: green;
+    /*text-align: center;*/
+    font-size: 7vh;
+    margin: 0px;
+    position: relative;
+    animation-name: food;
+    animation-duration :10s;
+    animation-direction:normal;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+    
+    animation-timing-function: linear;
+    
+    
+}
+.name{
+    /* background-image: url(images/foody.png); 
+     background-size: cover; */
+    height: 8vh;
+    width: 98vw;
+    background-color: white;
+}
+
+@keyframes food{
+    from{
+        top:0%;
+        left:0px;
+    }
+    to{
+       top:0%;
+       left: 1100px;
+    }
+}
+.food{
+    height: 150px;
+    width: 200px;
+    background-color: red;
+   
+     margin-left: 80vh; 
+}
+nav{
+    background-color:green;
+    width: 98vw;
+    height: 11vh;
+   
+}
+.logo{
+    /* background-color: red; */
+    width: 15vh;
+    margin-right: -10vh;
+    
+  background-size: cover;
+  
+}
+
+#navcontent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center; 
+    margin: 15vh;
+    list-style: none;
+    margin-top: 0vh;
+}
+#navcontent li{
+    
+    margin: 30px;
+    color: white;
+    margin-left: 13vh;
+    font-size: large;
+    font-weight: bold;
+}
+#navcontent li a{
+ color: white;
+ text-decoration: none;
+ margin-left: 5vh;
+ margin-right: 3vh;
+ font-size: large;
+ font-weight:bold;
+}
+#navcontent li :hover{
+    color: red;
+    
+   
+}
+#navcontent :hover{
+    color: black;
+    
+}
+
+
+.content1{
+    height: 39vh;
+    width: 59vh;
+    /* background-color: rgb(237, 234, 234); */
+    margin-top: 33vh;
+    margin-right: 20vh;
+       
+}
+.content1 h1 {
+    margin-top: 4vh;
+   margin-left: 3vh;
+   font-weight: bolder;
+   font-size: 65px;
+   color: #006400;
+   text-shadow: 2px 2px 8px #006400;
+ 
+}
+.content1 button{
+   height: 5vh;
+   margin-top: -2vh;
+    margin-left: 4vh; 
+    background-color: yellow;
+    border-color: yellow;
+     color: black;
+     font-weight: bolder;
+     font-size: 20px;
+}
+/* button:hover{
+    color: red;
+} */
+.content1 button:hover{
+ padding: 0.2vh;
+ color: red;
+ font-size: 22px ;
+
+ }
+ .name1 h1 {
+    color: green;
+    text-align: center;
+    font-weight: bold;
+    font-size: 9vh;
+    margin-top: 4vh;
+}
+.name1 p {
+    color: green;
+    text-align: center;
+    font-weight: bold;
+    margin-top: -6vh;
+    font-size: large;
+}
+ .container1{
+    margin: 2px;
+    height: auto;
+    width:98vw;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   
+ }
+ .box0{
+    height:70vh;
+       width: 190vh;
+       
+       margin-top: 20px;
+       background-image: url(images/restru3.jpg);
+       background-repeat: no-repeat;
+       background-size: cover;
+    
+    }
+ .box1{
+    height: 40vh;
+    width: 85vh;
+   
+    margin-top: 10vh;
+    border-radius: 9px;
+    background-image: url(images/sdm3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+ }
+ 
+ .box2{
+    height: auto;
+    width: 65vh;
+   
+    margin-top: 3vh;
+ 
+ }
+ .p1{
+    margin-left: 1.5vh;
+    margin-top: 1vh;
+    font-size: 5.5vh;
+    font-weight: bolder;
+ }
+ .p2{
+    margin-left: 1.5vh;
+    font-size: 3.5vh;
+    font-weight:900;
+    font-style: italic;
+ }
+ .box3{
+    height: 40vh;
+    width: 85vh;
+    
+    margin-top: 2vh;
+    border-radius: 9px;
+    background-image: url(images/sdm2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ .box4{
+    height: auto;
+    width: 69vh;
+ 
+    margin-top: 4vh;
+ 
+ }
+ .footer{
+    height: 30vh;
+    width: 98vw;
+    background-color: white;
+    margin-top: -5vh;
+}
+.footer p{
+    text-align: center;
+    font-size: 5vh;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 6vh;
+}
+.p6{
+ text-align: center;
+ font-size: 3vh;
+ margin-top: -3.5vh;
+
+}
+hr{
+    width: 125vh;
+}
+.sumbit input{
+    height: 5vh;
+    width: 50vh;
+    margin-left: 45vh;
+    
+}
+.vl{
+    border-left: 3px solid black;
+    height: 60px;
+    margin-left: 100vh;
+    margin-top: -6vh;
+}
+
+.sumbit button{
+    height: 5vh;
+    width: 20vh;
+    margin-left: 9vh;
+    color: black;
+    font-size: large;
+
+}
+.content4{
+    background-color: green;
+    height: 12vh;
+    width: 98vw;
+    display:flex ;
+    justify-content: center;
+    
+}
+ .content4 button{
+    height: 45px;
+    width: 45px; 
+     border-radius: 1vh;
+    margin: 3vh;
+    margin-top: 1vh;
+  
+    
+}
+.content5{
+    margin-top: -10vh;
+    text-align: center;
+}
+.btn button:hover{
+    padding: 0.2vh;
+    border: dotted;
+ color: black;
+ font-size: 22px ;  
+
+}
+
+
+
+
+ 
